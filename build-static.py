@@ -78,7 +78,7 @@ except ImportError:  # [v1.2.0] 回退：markdown-it-py（Kimi Work 托管运行
     markdown = _MarkdownShim()
 
 # ---------------- 配置 ----------------
-BASE = "https://v5med.net"
+BASE = "https://v5m.cc.cd"
 TODAY = datetime.date.today().isoformat()
 ROOT = Path(__file__).resolve().parent
 OG_IMAGE = "https://pub-224e4e74685e409e833e89d4ab5143fb.r2.dev/v5medlogo.png"

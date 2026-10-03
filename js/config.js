@@ -1,5 +1,5 @@
 /**
- * V5 Medical Website Configuration (v5med.net)
+ * V5 Medical Website Configuration (v5m.cc.cd)
  * @version 1.0.1
  * @updated 2026-09-04
  * 
@@ -10,7 +10,7 @@
 
 const V5Config = (() => {
     const hostname = typeof window !== 'undefined' ? window.location.hostname : '';
-    const isProduction = hostname === 'v5med.net' || hostname === 'www.v5med.net';
+    const isProduction = hostname === 'v5m.cc.cd';
     const isLocal = hostname === 'localhost' || hostname === '127.0.0.1';
 
     return {
@@ -20,7 +20,7 @@ const V5Config = (() => {
         ENV: { IS_PRODUCTION: isProduction, IS_LOCAL: isLocal },
         
         // 品牌域名
-        DOMAIN: 'v5med.net',
+        DOMAIN: 'v5m.cc.cd',
         BASE_URL: '', 
         
         PATHS: { 
@@ -32,7 +32,7 @@ const V5Config = (() => {
             PLACEHOLDER: 'images/products/default-product.jpg',
             LOGO: 'https://pub-224e4e74685e409e833e89d4ab5143fb.r2.dev/v5logo.png',
             LOGO_LOCAL: 'images/v5logo.png',
-            FALLBACK_BASE: 'https://raw.githubusercontent.com/alden888/v5med-website/main/'
+            FALLBACK_BASE: 'https://raw.githubusercontent.com/v5david/v5m.cc.cd/main/'
         },
         
         SEO: {
@@ -61,10 +61,10 @@ const V5Config = (() => {
         
         // JSON-LD 结构化数据
         JSON_LD: {
-            URL: 'https://v5med.net',
-            LOGO: 'https://v5med.net/images/v5logo.png',
+            URL: 'https://v5m.cc.cd',
+            LOGO: 'https://v5m.cc.cd/images/v5logo.png',
             SAME_AS: [
-                'https://v5med.net',
+                'https://v5m.cc.cd',
                 'https://www.linkedin.com/company/v5medical'
             ]
         }
